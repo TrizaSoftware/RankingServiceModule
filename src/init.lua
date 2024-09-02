@@ -102,7 +102,7 @@ function RankingService:Promote(userId: number)
 
 	for i, Rank in GroupInfo.Roles do
 		if Rank.Rank == UserRank then
-			if (i + 1) < #GroupInfo.Roles then
+			if (i + 1) > #GroupInfo.Roles then
 				error(`The rank index {i + 1} does not exist.`)
 			end
 			
@@ -185,7 +185,7 @@ function RankingService:BulkPromote(userIds: {})
 
 		for i, Rank in GroupInfo.Roles do
 			if Rank.Rank == UserRank then
-				if (i + 1) < #GroupInfo.Roles then
+				if (i + 1) > #GroupInfo.Roles then
 					error(`The rank index {i + 1} does not exist.`)
 				end
 
