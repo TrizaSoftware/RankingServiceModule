@@ -1,0 +1,11 @@
+{
+    "name": "TrizaRankingService",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "TrizaRankingService": {
+                "$path": "./src"
+            }
+        }
+    }
+}
