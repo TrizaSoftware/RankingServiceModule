@@ -8,7 +8,7 @@
                                                             
    Programmer(s): Jyrezo
    
-   Copyright(c) The T:Riza Software 2020-2024
+   Copyright(c) T:Riza Software 2020-2024
 ]]
 
 local HttpService = game:GetService("HttpService")
