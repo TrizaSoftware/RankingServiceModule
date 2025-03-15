@@ -36,7 +36,7 @@ end
 local RankingService = {}
 RankingService.__index = RankingService
 
-function RankingService.new(key: string, groupId: number, organizationId: number)
+function RankingService.new(key: string, groupId: number, organizationId: string)
 	local self = setmetatable({}, RankingService)
 
 	self._key = key
